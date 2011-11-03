@@ -1,3 +1,9 @@
+# revision 23711
+# category Package
+# catalog-ctan /macros/latex/contrib/isotope
+# catalog-date 2011-08-26 17:57:53 +0200
+# catalog-license lppl
+# catalog-version v0.3
 Name:		texlive-isotope
 Version:	v0.3
 Release:	1
@@ -43,6 +49,7 @@ an unsatisfactory result.).
 #- source
 %doc %{_texmfdistdir}/source/latex/isotope/isotope.dtx
 %doc %{_texmfdistdir}/source/latex/isotope/isotope.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ an unsatisfactory result.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
