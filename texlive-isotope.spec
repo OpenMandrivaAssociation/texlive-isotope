@@ -6,7 +6,7 @@
 # catalog-version v0.3
 Name:		texlive-isotope
 Version:	v0.3
-Release:	7
+Release:	8
 Summary:	A package for typesetting isotopes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isotope
