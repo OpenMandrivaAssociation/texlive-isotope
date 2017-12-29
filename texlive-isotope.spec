@@ -1,12 +1,6 @@
-# revision 23711
-# category Package
-# catalog-ctan /macros/latex/contrib/isotope
-# catalog-date 2011-08-26 17:57:53 +0200
-# catalog-license lppl
-# catalog-version v0.3
 Name:		texlive-isotope
-Version:	v0.3
-Release:	10
+Version:	0.3
+Release:	1
 Summary:	A package for typesetting isotopes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isotope
@@ -50,17 +44,3 @@ an unsatisfactory result.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.3-2
-+ Revision: 752846
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.3-1
-+ Revision: 718741
-- texlive-isotope
-- texlive-isotope
-- texlive-isotope
-- texlive-isotope
-
