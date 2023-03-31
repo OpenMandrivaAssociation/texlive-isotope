@@ -1,6 +1,6 @@
 Name:		texlive-isotope
 Version:	23711
-Release:	1
+Release:	2
 Summary:	A package for typesetting isotopes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isotope
